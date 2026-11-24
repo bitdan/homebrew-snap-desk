@@ -1,0 +1,29 @@
+{
+  "version": "0.3.0",
+  "description": "Screenshot, pin, OCR and translation tool",
+  "homepage": "https://github.com/bitdan/snap-desk",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/bitdan/snap-desk/releases/download/v0.3.0/snap-desk-v0.3.0-windows-x64-standalone.exe#/snap-desk.exe",
+      "hash": "d39eebd089a2986c212f2ec0dfc715e6f0a70384908114f050d90894612cd25c"
+    }
+  },
+  "bin": "snap-desk.exe",
+  "shortcuts": [
+    [
+      "snap-desk.exe",
+      "Snap Desk"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/bitdan/snap-desk"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/bitdan/snap-desk/releases/download/v$version/snap-desk-v$version-windows-x64-standalone.exe#/snap-desk.exe"
+      }
+    }
+  }
+}

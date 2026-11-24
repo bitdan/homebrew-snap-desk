@@ -1,6 +1,6 @@
 cask "snap-desk" do
-  version "0.3.1"
-  sha256 "5d0fc3c2bd426f19dde66874d5beb319749f9d19dff20e98dfbaecddb8d42dd3"
+  version "0.3.2"
+  sha256 "62e040de44fec95271a6c5c4704837a1d391558a8d26e0313db0abef5b8e0444"
 
   url "https://github.com/bitdan/snap-desk/releases/download/v#{version}/snap-desk-v#{version}-macos-arm64.dmg"
   name "Snap Desk"
